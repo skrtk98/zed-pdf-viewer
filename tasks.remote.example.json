@@ -1,0 +1,20 @@
+[
+  {
+    "label": "PDF: open PDF of current file",
+    "command": "mupdf-viewer",
+    "args": ["$ZED_FILE", "--remote"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always",
+    "hide": "never"
+  },
+  {
+    "label": "PDF: open newest PDF in project",
+    "command": "mupdf-viewer",
+    "args": ["$ZED_WORKTREE_ROOT", "--remote"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always",
+    "hide": "never"
+  }
+]

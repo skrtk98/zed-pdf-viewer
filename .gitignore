@@ -1,0 +1,13 @@
+node_modules/
+viewer/dist/
+viewer/media/viewer.js
+viewer/media/viewer.js.map
+viewer/media/worker.js
+viewer/media/worker.js.map
+viewer/media/host.js
+viewer/media/host.js.map
+viewer/media/mupdf.js
+viewer/media/mupdf-wasm.js
+viewer/media/mupdf.wasm
+target/
+extension.wasm

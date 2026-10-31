@@ -1,0 +1,9 @@
+id = "mupdf-viewer"
+name = "MuPDF Viewer"
+version = "0.1.0"
+schema_version = 1
+authors = ["ishida"]
+description = "Lets the Agent panel open PDFs in the MuPDF Viewer browser window."
+
+[context_servers.mupdf-viewer]
+name = "MuPDF Viewer"
